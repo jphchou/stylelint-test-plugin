@@ -1,0 +1,29 @@
+{
+  "name": "@jchou8/stylelint-test-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "rimraf ./dist && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jchou8/stylelint-test-plugin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jchou8/stylelint-test-plugin/issues"
+  },
+  "homepage": "https://github.com/jchou8/stylelint-test-plugin#readme",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "stylelint": "^13.6.1",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "@types/stylelint": "^9.10.1"
+  }
+}
