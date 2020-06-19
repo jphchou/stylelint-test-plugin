@@ -5,7 +5,7 @@
   "main": "./dist/index.js",
   "scripts": {
     "build": "rimraf ./dist && tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,12 +18,16 @@
   },
   "homepage": "https://github.com/jchou8/stylelint-test-plugin#readme",
   "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "jest": "^26.0.1",
     "rimraf": "^3.0.2",
     "stylelint": "^13.6.1",
+    "ts-jest": "^26.1.0",
     "tslint": "^6.1.2",
     "typescript": "^3.9.5"
   },
   "dependencies": {
-    "@types/stylelint": "^9.10.1"
+    "@types/stylelint": "^9.10.1",
+    "postcss": "^7.0.32"
   }
 }
