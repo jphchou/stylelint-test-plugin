@@ -28,6 +28,6 @@
   },
   "dependencies": {
     "@types/stylelint": "^9.10.1",
-    "postcss": "^7.0.32"
+    "postcss": "^8.2.10"
   }
 }
